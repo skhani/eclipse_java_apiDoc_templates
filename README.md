@@ -18,4 +18,3 @@ Eclipse Java editor templates to add [apiDoc](https://github.com/apidoc/apidoc) 
 #### Collaborators
 * Shahin Mohammadkhani
 * Ashish Lath
-* Pooja Desai
