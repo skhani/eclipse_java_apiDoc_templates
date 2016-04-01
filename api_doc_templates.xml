@@ -1,4 +1,3 @@
-
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <templates>
 <template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.api" name="@api">@api {${method}} ${path} [${title}]</template>
