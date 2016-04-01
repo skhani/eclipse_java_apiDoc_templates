@@ -1,0 +1,30 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<templates>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.api" name="@api">@api {${method}} ${path} [${title}]</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiDefine" name="@apiDefine">@apiDefine ${name} [${title}]&#13;
+    *            [${description}]</template>
+
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiDescription" name="@apiDescription">@apiDescription ${text}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiError" name="@apiError">@apiError [(${group})] [{${type}}] ${field} [${description}]</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiErrorExample" name="@apiErrorExample">@apiErrorExample [{${type}}] [${title}]&#13;
+    *  ${example}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiExample" name="@apiExample">@apiExample [{${type}}] ${title}&#13;
+    *  ${example}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiGroup" name="@apiGroup">@apiGroup ${name}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiHeader" name="@apiHeader">@apiHeader [(${group})] [{${type}}] [${field}=${defaultValue}] [${description}]</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiHeaderExample" name="@apiHeaderExample">@apiHeaderExample [{${type}}] [${title}]&#13;
+    *  ${example}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiIgnore" name="@apiIgnore">@apiIgnore [${hint}]</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiName" name="@apiName">@apiName ${name}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiParam" name="@apiParam">@apiParam [(${group})] [{${type}}] [${field}=${defaultValue}] [${description}]</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" name="@apiParamExample">@apiParamExample [{${type}}] [${title}]&#13;
+    *  ${example}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiPermission" name="@apiPermission">@apiPermission ${name}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiSampleRequest" name="@apiSampleRequest">@apiSampleRequest ${url}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiSuccess" name="@apiSuccess">@apiSuccess [(${group})] [{${type}}] ${field} [${description}]</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiSuccessExample" name="@apiSuccessExample">@apiSuccessExample [{${type}}] [${title}]&#13;
+    *  ${example}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiUse" name="@apiUse">@apiUse ${name}</template>
+<template autoinsert="true" context="javadoc" deleted="false" description="apiDoc tag" enabled="true" id="org.eclipse.jdt.ui.templates.apiVersion" name="@apiVersion">@apiVersion ${version}</template>
+</templates>
