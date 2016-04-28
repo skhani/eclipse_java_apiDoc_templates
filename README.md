@@ -3,6 +3,8 @@ Eclipse Java apiDoc editor templates
 
 Eclipse Java editor templates to add [apiDoc](https://github.com/apidoc/apidoc) tags to code assist suggestions.
 
+http://apidocjs.com/#params
+
 ## Usage
 1. Open Eclipse
 2. Go to Window > Preferences > Editor > Templates
